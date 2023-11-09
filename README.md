@@ -11,3 +11,8 @@ Examples are provided in the examples folder. The examples include various Poiss
 
 The source code is provided in the "src" folder.
 The Mento-Carlo numerical integration method is used and the data generation method is provided in "dataset.py". To define different differential operators, one can redefine "opA" (for the equation) and "opB" (for the boundary condition), see the semilinar/nonlinear example. 
+
+To build wheel after modifying the source code, install "build" package and run 
+```
+python3 -m build
+```
